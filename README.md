@@ -13,7 +13,7 @@ Custom firmware for the **CrowPanel ESP32-S3 2.9" e-paper display** with Wi-Fi u
 
 ## 🛠 Based On
 
-This firmware is **based on Elecrow's original Arduino demo** for the CrowPanel (`Ap_29demo.h`) but modified for:
+This firmware is **based on Elecrow's original Arduino demo** for the CrowPanel (`2.9_WIFI_refresh.zip`) but modified for:
 
 - Standalone operation without USB tethering
 - Full-screen rendering (no top bar UI)

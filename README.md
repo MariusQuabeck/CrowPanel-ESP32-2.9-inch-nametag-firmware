@@ -23,7 +23,7 @@ This firmware is **based on Elecrow's original Arduino demo** for the CrowPanel 
 
 1. Connect to the Wi-Fi AP named `ESP32_Config`.
 2. Open `http://192.168.4.1/` in your browser.
-3. Upload a `txt.bin` file (generated using the [binner](https://github.com/your-username/binner) script).
+3. Upload a `txt.bin` file (generated using the [binner](https://github.com/MariusQuabeck/CrowPanel-ESP32-2.9-inch-binner/tree/main) script).
 4. The display will immediately update with your image.
 
 ## 🧱 Display Format
@@ -35,4 +35,4 @@ Images must be:
 - **Packed in column-major format** (8 vertical pixels per byte)
 - **Bit-reversed in each byte** to correct for horizontal mirroring
 
-Use the companion [binner](https://github.com/your-username/binner) script to generate valid `.bin` files from PNGs.
+Use the companion [binner](https://github.com/MariusQuabeck/CrowPanel-ESP32-2.9-inch-binner/tree/main) script to generate valid `.bin` files from PNGs.
